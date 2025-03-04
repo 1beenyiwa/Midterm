@@ -30,9 +30,8 @@ This project uses a virtual environment to manage its Python dependencies. To ru
 ## Installing dependencies
 
 With the virtual environment activated, install the required packages by running:
-
-```bash
-pip install -r requirements.txt
+   
+  ``` pip install -r requirements.txt```
 
 ## Installing dependencies
 AFter all dependencies are installed, run the application via this command:

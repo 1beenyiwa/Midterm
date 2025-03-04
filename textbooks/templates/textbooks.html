@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Textbooks</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 0;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        p.hint {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        /* List Styles */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+        }
+        li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .textbook-details {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Textbooks</h1>
+
+    <!-- Section: List available course codes -->
+    <p class="hint">Click on a course code to see all textbooks available for that course.</p>
+    <ul>
+        {% for course_code in available_courses %}
+            <li>
+                <a href="{% url 'textbooks_by_course' course_code %}">
+                    {{ course_code }}
+                </a>
+            </li>
+        {% empty %}
+            <li>No textbooks are currently available.</li>
+        {% endfor %}
+    </ul>
+
+    <!-- Section: All Textbooks -->
+    <!-- <h2>All Textbooks</h2>
+    <ul>
+        {% for textbook in textbooks %}
+            <li>
+                <strong>{{ textbook.title }}</strong> by {{ textbook.author }}
+                {% if textbook.edition %} (Edition: {{ textbook.edition }}) {% endif %}
+                {% if textbook.year %} - Year: {{ textbook.year }} {% endif %}
+                <div class="textbook-details">
+                    Course: {{ textbook.course_code }} | 
+                    Available: {{ textbook.availability }} | 
+                    Condition: {{ textbook.get_condition_display }}
+                </div>
+            </li>
+        {% empty %}
+            <li>No textbooks available.</li>
+        {% endfor %}
+    </ul> -->
+</body>
+</html>

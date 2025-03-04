@@ -33,8 +33,8 @@ With the virtual environment activated, install the required packages by running
    
   ``` pip install -r requirements.txt```
 
-## Installing dependencies
-AFter all dependencies are installed, run the application via this command:
+## Running the application
+After all dependencies are installed, run the application via this command:
 
 ```bash
 python manage.py runserver

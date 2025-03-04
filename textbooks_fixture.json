@@ -1,0 +1,379 @@
+[
+    {
+        "model": "textbooks.textbook",
+        "pk": 1,
+        "fields": {
+            "title": "Computer Science: An Overview",
+            "author": "J. Glenn Brookshear and Dennis Brylow",
+            "edition": "12th",
+            "year": 2012,
+            "course_code": "CSC101",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 2,
+        "fields": {
+            "title": "Python Programming: An Introduction to Computer Science",
+            "author": "John Zelle",
+            "edition": "3rd",
+            "year": 2010,
+            "course_code": "CSC101",
+            "availability": true,
+            "condition": "written"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 3,
+        "fields": {
+            "title": "Introduction to Computing and Programming in Python",
+            "author": "Mark Guzdial and Barbara Ericson",
+            "edition": "3rd",
+            "year": 2012,
+            "course_code": "CSC101",
+            "availability": false,
+            "condition": "old"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 4,
+        "fields": {
+            "title": "Discrete Mathematics and Its Applications",
+            "author": "Kenneth H. Rosen",
+            "edition": "7th",
+            "year": 2011,
+            "course_code": "CSC101",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 5,
+        "fields": {
+            "title": "Introduction to Algorithms",
+            "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+            "edition": "3rd",
+            "year": 2009,
+            "course_code": "CSC101",
+            "availability": false,
+            "condition": "written"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 6,
+        "fields": {
+            "title": "Calculus: Early Transcendentals",
+            "author": "James Stewart",
+            "edition": "8th",
+            "year": 2015,
+            "course_code": "MAT101",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 7,
+        "fields": {
+            "title": "Linear Algebra and Its Applications",
+            "author": "David C. Lay",
+            "edition": "5th",
+            "year": 2012,
+            "course_code": "MAT101",
+            "availability": true,
+            "condition": "written"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 8,
+        "fields": {
+            "title": "Elementary Differential Equations and Boundary Value Problems",
+            "author": "William E. Boyce and Richard C. DiPrima",
+            "edition": "10th",
+            "year": 2012,
+            "course_code": "MAT101",
+            "availability": false,
+            "condition": "old"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 9,
+        "fields": {
+            "title": "Precalculus: Mathematics for Calculus",
+            "author": "James Stewart, Lothar Redlin, Saleem Watson",
+            "edition": "7th",
+            "year": 2014,
+            "course_code": "MAT101",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 10,
+        "fields": {
+            "title": "A First Course in Calculus",
+            "author": "Serge Lang",
+            "edition": "1st",
+            "year": 1998,
+            "course_code": "MAT101",
+            "availability": false,
+            "condition": "written"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 11,
+        "fields": {
+            "title": "The Norton Anthology of English Literature",
+            "author": "Stephen Greenblatt (ed.)",
+            "edition": "10th",
+            "year": 2018,
+            "course_code": "ENG101",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 12,
+        "fields": {
+            "title": "Literature: An Introduction to Reading and Writing",
+            "author": "Edgar V. Roberts",
+            "edition": "5th",
+            "year": 2013,
+            "course_code": "ENG101",
+            "availability": true,
+            "condition": "written"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 13,
+        "fields": {
+            "title": "English Literature: A Very Short Introduction",
+            "author": "Jonathan Bate",
+            "edition": "1st",
+            "year": 2007,
+            "course_code": "ENG101",
+            "availability": false,
+            "condition": "old"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 14,
+        "fields": {
+            "title": "The Bedford Introduction to Literature",
+            "author": "Michael Meyer",
+            "edition": "9th",
+            "year": 2016,
+            "course_code": "ENG101",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 15,
+        "fields": {
+            "title": "A Companion to British Literature",
+            "author": "Steven N. Zwicker (ed.)",
+            "edition": "1st",
+            "year": 2012,
+            "course_code": "ENG101",
+            "availability": true,
+            "condition": "written"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 16,
+        "fields": {
+            "title": "Fundamentals of Physics",
+            "author": "David Halliday, Robert Resnick, Jearl Walker",
+            "edition": "10th",
+            "year": 2013,
+            "course_code": "PHY101",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 17,
+        "fields": {
+            "title": "University Physics with Modern Physics",
+            "author": "Hugh D. Young and Roger A. Freedman",
+            "edition": "14th",
+            "year": 2015,
+            "course_code": "PHY101",
+            "availability": false,
+            "condition": "written"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 18,
+        "fields": {
+            "title": "Physics for Scientists and Engineers",
+            "author": "Raymond A. Serway and John W. Jewett",
+            "edition": "9th",
+            "year": 2013,
+            "course_code": "PHY101",
+            "availability": true,
+            "condition": "old"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 19,
+        "fields": {
+            "title": "Conceptual Physics",
+            "author": "Paul G. Hewitt",
+            "edition": "12th",
+            "year": 2013,
+            "course_code": "PHY101",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 20,
+        "fields": {
+            "title": "The Feynman Lectures on Physics",
+            "author": "Richard P. Feynman, Robert B. Leighton, Matthew Sands",
+            "edition": "1st",
+            "year": 1964,
+            "course_code": "PHY101",
+            "availability": false,
+            "condition": "written"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 21,
+        "fields": {
+            "title": "Introduction to Electrodynamics",
+            "author": "David J. Griffiths",
+            "edition": "4th",
+            "year": 2013,
+            "course_code": "PHY101",
+            "availability": true,
+            "condition": "old"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 22,
+        "fields": {
+            "title": "Chemistry: The Central Science",
+            "author": "Theodore L. Brown, H. Eugene LeMay, Bruce E. Bursten",
+            "edition": "13th",
+            "year": 2015,
+            "course_code": "CHEM101",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 23,
+        "fields": {
+            "title": "Organic Chemistry",
+            "author": "Paula Y. Bruice",
+            "edition": "7th",
+            "year": 2016,
+            "course_code": "CHEM101",
+            "availability": false,
+            "condition": "written"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 24,
+        "fields": {
+            "title": "Inorganic Chemistry",
+            "author": "Gary L. Miessler, Paul J. Fischer, Donald A. Tarr",
+            "edition": "5th",
+            "year": 2014,
+            "course_code": "CHEM101",
+            "availability": true,
+            "condition": "old"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 25,
+        "fields": {
+            "title": "Physical Chemistry",
+            "author": "Peter Atkins and Julio de Paula",
+            "edition": "10th",
+            "year": 2014,
+            "course_code": "CHEM101",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 26,
+        "fields": {
+            "title": "Analytical Chemistry",
+            "author": "Gary D. Christian",
+            "edition": "8th",
+            "year": 2013,
+            "course_code": "CHEM101",
+            "availability": true,
+            "condition": "written"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 27,
+        "fields": {
+            "title": "General Chemistry: Principles and Modern Applications",
+            "author": "Ralph H. Petrucci, F. Geoffrey Herring, Jeffry D. Madura",
+            "edition": "10th",
+            "year": 2016,
+            "course_code": "CHEM101",
+            "availability": false,
+            "condition": "old"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 28,
+        "fields": {
+            "title": "Electric and Hybrid Vehicles",
+            "author": "Iqbal Husain",
+            "edition": "3rd",
+            "year": 2021,
+            "course_code": "ELEC6471",
+            "availability": true,
+            "condition": "new"
+        }
+    },
+    {
+        "model": "textbooks.textbook",
+        "pk": 29,
+        "fields": {
+            "title": "Software Engineering",
+            "author": "Ian Sommerville",
+            "edition": "10th",
+            "year": 2016,
+            "course_code": "COEN6311",
+            "availability": false,
+            "condition": "new"
+        }
+    }
+]
